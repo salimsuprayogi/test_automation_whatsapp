@@ -26,27 +26,27 @@
 
 ## Steps Run Program
 
-        0. Start
-        1. Clone or pull my repo
-        2. Don't change the folder
-        3. Download chromedriver and geckodrive [ location C:/]
-        4. Then [ Open Explore ] [ this PC ] [ advance system settings ] [ environtment variables ] [ put location webdriver in here]
+        0. Start.
+        1. Clone or pull my repo.
+        2. Don't change the folder.
+        3. Download chromedriver and geckodrive [ location C:/].
+        4. Then [ Open Explore ] [ this PC ] [ advance system settings ] [ environtment variables ] [ put location webdriver in here].
            like : [C:\geckodriver.exe](https://chromedriver.chromium.org/) or [C:\chromedriver.exe](https://github.com/mozilla/geckodriver/releases)
-        5. Open CMD
-        6. Navigate to the clone download folder
-        7. Command cd [your location folder]
-        8. Command dir
-        9. Run program : python main.py
-        10. Then Enter
-        11. End
+        5. Open CMD.
+        6. Navigate to the clone download folder.
+        7. Command cd [your location folder].
+        8. Command dir.
+        9. Run program : python main.py.
+        10. Then Enter.
+        11. End.
 
 ## Author
 
         [Salim Suprayogi](https://github.com/salimsuprayogi)
 
-        Github [https://github.com/salimsuprayogi](https://github.com/salimsuprayogi)
+        Github [github.com/salimsuprayogi](https://github.com/salimsuprayogi)
 
-        Linkedin [https://www.linkedin.com/in/salimsuprayogi/](https://www.linkedin.com/in/salimsuprayogi)
+        Linkedin [www.linkedin.com/in/salimsuprayogi/](https://www.linkedin.com/in/salimsuprayogi)
 
-        Our blog [https://voosmos.blogspot.com/](https://voosmos.blogspot.com)
+        Our blog [voosmos.blogspot.com/](https://voosmos.blogspot.com)
 
