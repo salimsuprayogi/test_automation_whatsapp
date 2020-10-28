@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test Automation WhatsApp</title>
+    <meta charset="UTF-8">
+    <meta content="width=device-width initial-scale=1.0" name="viewport">
+    <style>            html {
+            width: 100%;
+            }
+
+            body {
+            font-family: &quot;Trebuchet MS&quot;, Arial, Helvetica, sans-serif;
+            font-size: small;
+            box-sizing: border-box;
+            }
+
+            h1 {
+            text-align: center;
+            border: 2px solid whitesmoke;
+            background-color: #4caf50;
+            color: white;
+            padding: 8px;
+            box-shadow: 0px 0px 1px 0px grey;
+            border-radius: 1px;
+            margin-bottom: 15px;
+            }
+
+            .header {
+            box-shadow: 0px 0px 1px 0px grey;
+            border-radius: 1px;
+            border: 1px solid whitesmoke;
+            /* box-shadow: 0px 0px 1px 0px grey;
+            border-radius: 1px; */
+            padding: 8px;
+            /* padding-bottom: 5px; */
+            margin-bottom: 15px;
+            text-align: justify;
+            }
+
+            .profile {
+            /* box-shadow: 0px 0px 1px 0px grey;
+            border-radius: 1px;
+            text-align: left;
+            border: 1px solid whitesmoke;
+            background-color: #4caf50;
+            color: white; */
+            font-weight: normal;
+            /* margin: 1px;
+            padding: 8px; */
+            }
+
+            .header3,
+            .paragraf {
+            text-align: justify;
+            /* border-bottom-style: solid; */
+            /* border-bottom-color: #83c985; */
+            /* margin: 2px; */
+            /* padding: auto; */
+            margin-top: 15px;
+            }
+
+            h2 {
+            background-color: #4caf50;
+            color: white;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-align: center;
+            }
+
+            h3,
+            p {
+            font-weight: normal;
+            }
+
+            #main {
+            border-collapse: collapse;
+            width: 100%;
+            font-weight: normal;
+            text-align: justify;
+            }
+
+            .container {
+            box-shadow: 0px 0px 1px 0px green;
+            border-radius: 1px;
+            border: 1px solid whitesmoke;
+            padding: 5px;
+            padding-bottom: 20px;
+            margin-bottom: 15px;
+            }
+
+            #main th {
+            position: sticky;
+            top: 0;
+            }
+
+            #main td,
+            #main th {
+            border: 1px solid #ddd;
+            padding: 5px;
+            }
+            
+            #main tr:hover {
+            /*padding-top: 5px;
+            padding-bottom: 5px;
+            text-align: left;*/
+            background-color: #4caf50;
+            }
+            
+            #main th {
+            padding-top: 5px;
+            padding-bottom: 5px;
+            text-align: left;
+            background-color: #4caf50;
+            color: white;
+            }
+
+            h4 {
+            text-align: center;
+            border: 2px solid whitesmoke;
+            background-color: #ddd;
+            color: darkslateblue;
+            padding: 8px;
+            margin-bottom: 15px;
+            }
+
+            .success {
+            background-color: #4caf50;
+            color: white;
+            text-align: justify;
+            }
+
+            .failed {
+            background-color: deeppink;
+            color: white;
+            text-align: justify;
+            }
+            </style>
+  </head>
+  <body>
+    <h1>Test Report WhatsApp</h1>
+    <div class="header">
+      <p>
+        <p class="profile">Name : Salim Suprayogi</p>
+        <p class="profile">Date : Tuesday, 27 October 2020</p>
+        <p class="profile">Title Page : WhatsApp</p>
+        <p class="profile">Browser Name : Open Browser Chrome</p>
+      </p>
+    </div>
+    <div class="container">
+      <table class="table-striped" id="main">
+        <h2 class="header2">Test Results Message WhatsApp</h2>
+        <h3 class="header3">Id : 1</h3>
+        <p class="paragraf">Topic : topic_nama</p>
+        <p class="paragraf">Category : kategori_nama</p>
+        <p class="paragraf">Label : label.nama</p><br>
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Question</th>
+            <th>Reply Chat</th>
+            <th>Answer</th>
+            <th>Status Pass</th>
+            <th>Status Failed</th>
+            <th>Probability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p>1</p>
+            </td>
+            <td>
+              <p class="question-text">nama kamu siapa ?</p>
+            </td>
+            <td>
+              <p class="msg-body">nama saya selim</p>
+            </td>
+            <td>
+              <p>nama saya selim</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              <p>2</p>
+            </td>
+            <td>
+              <p class="question-text">kamu siapa ?</p>
+            </td>
+            <td>
+              <p class="msg-body">asoka</p>
+            </td>
+            <td>
+              <p>nama saya selim</p>
+            </td>
+            <td>-</td>
+            <td class="failed">FAILED</td>
+            <td>
+              <p>0.3</p>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              <p>3</p>
+            </td>
+            <td>
+              <p class="question-text">boleh tahu nama kamu ?</p>
+            </td>
+            <td>
+              <p class="msg-body">nama saya selim</p>
+            </td>
+            <td>
+              <p>nama saya selim</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container">
+      <table class="table-striped" id="main">
+        <h2 class="header2">Test Results Message WhatsApp</h2>
+        <h3 class="header3">Id : 2</h3>
+        <p class="paragraf">Topic : topic_jenis_kelamin</p>
+        <p class="paragraf">Category : kategori_jenis_kelamin</p>
+        <p class="paragraf">Label : label.jenis_kelamin</p><br>
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Question</th>
+            <th>Reply Chat</th>
+            <th>Answer</th>
+            <th>Status Pass</th>
+            <th>Status Failed</th>
+            <th>Probability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p>1</p>
+            </td>
+            <td>
+              <p class="question-text">jenis kelamin kamu apa ?</p>
+            </td>
+            <td>
+              <p class="msg-body">lupa</p>
+            </td>
+            <td>
+              <p>cowok donk</p>
+            </td>
+            <td>-</td>
+            <td class="failed">FAILED</td>
+            <td>
+              <p>0.0</p>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              <p>2</p>
+            </td>
+            <td>
+              <p class="question-text">kamu laki-laki atau perempuan ?</p>
+            </td>
+            <td>
+              <p class="msg-body">cowok donk</p>
+            </td>
+            <td>
+              <p>cowok donk</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              <p>3</p>
+            </td>
+            <td>
+              <p class="question-text">cowok atau cewek ?</p>
+            </td>
+            <td>
+              <p class="msg-body">cowok donk</p>
+            </td>
+            <td>
+              <p>cowok donk</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container">
+      <table class="table-striped" id="main">
+        <h2 class="header2">Test Results Message WhatsApp</h2>
+        <h3 class="header3">Id : 3</h3>
+        <p class="paragraf">Topic : topic_asal</p>
+        <p class="paragraf">Category : kategori_asal</p>
+        <p class="paragraf">Label : label.asal</p><br>
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Question</th>
+            <th>Reply Chat</th>
+            <th>Answer</th>
+            <th>Status Pass</th>
+            <th>Status Failed</th>
+            <th>Probability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p>1</p>
+            </td>
+            <td>
+              <p class="question-text">asli mana ?</p>
+            </td>
+            <td>
+              <p class="msg-body">jl. imogiri timur km 9</p>
+            </td>
+            <td>
+              <p>saya asli jogja bos</p>
+            </td>
+            <td>-</td>
+            <td class="failed">FAILED</td>
+            <td>
+              <p>0.2</p>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              <p>2</p>
+            </td>
+            <td>
+              <p class="question-text">kamu asli mana ?</p>
+            </td>
+            <td>
+              <p class="msg-body">saya asli jogja bos</p>
+            </td>
+            <td>
+              <p>saya asli jogja bos</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              <p>3</p>
+            </td>
+            <td>
+              <p class="question-text">asal kamu ?</p>
+            </td>
+            <td>
+              <p class="msg-body">rahasia</p>
+            </td>
+            <td>
+              <p>saya asli jogja bos</p>
+            </td>
+            <td>-</td>
+            <td class="failed">FAILED</td>
+            <td>
+              <p>0.38</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container">
+      <table class="table-striped" id="main">
+        <h2 class="header2">Test Results Message WhatsApp</h2>
+        <h3 class="header3">Id : 4</h3>
+        <p class="paragraf">Topic : topic_alamat</p>
+        <p class="paragraf">Category : kategori_alamat</p>
+        <p class="paragraf">Label : label.alamat</p><br>
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Question</th>
+            <th>Reply Chat</th>
+            <th>Answer</th>
+            <th>Status Pass</th>
+            <th>Status Failed</th>
+            <th>Probability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p>1</p>
+            </td>
+            <td>
+              <p class="question-text">alamat kamu ?</p>
+            </td>
+            <td>
+              <p class="msg-body">jl. imogiri timur km 9</p>
+            </td>
+            <td>
+              <p>jl. imogiri timur km 9</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              <p>2</p>
+            </td>
+            <td>
+              <p class="question-text">dimana alamat kamu ?</p>
+            </td>
+            <td>
+              <p class="msg-body">jl. imogiri timur km 8</p>
+            </td>
+            <td>
+              <p>jl. imogiri timur km 9</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>0.95</p>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              <p>3</p>
+            </td>
+            <td>
+              <p class="question-text">boleh tahu alamat kamu ?</p>
+            </td>
+            <td>
+              <p class="msg-body">jl. imogiri timur km 9</p>
+            </td>
+            <td>
+              <p>jl. imogiri timur km 9</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container">
+      <table class="table-striped" id="main">
+        <h2 class="header2">Test Results Message WhatsApp</h2>
+        <h3 class="header3">Id : 5</h3>
+        <p class="paragraf">Topic : topic_usia</p>
+        <p class="paragraf">Category : kategori_usia</p>
+        <p class="paragraf">Label : label.usia</p><br>
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Question</th>
+            <th>Reply Chat</th>
+            <th>Answer</th>
+            <th>Status Pass</th>
+            <th>Status Failed</th>
+            <th>Probability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p>1</p>
+            </td>
+            <td>
+              <p class="question-text">usia kamu berapa ?</p>
+            </td>
+            <td>
+              <p class="msg-body">hee</p>
+            </td>
+            <td>
+              <p>usia saya 20 tahun hehehe</p>
+            </td>
+            <td>-</td>
+            <td class="failed">FAILED</td>
+            <td>
+              <p>0.21</p>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              <p>2</p>
+            </td>
+            <td>
+              <p class="question-text">usia kamu ?</p>
+            </td>
+            <td>
+              <p class="msg-body">usia saya 20 tahun hehehe</p>
+            </td>
+            <td>
+              <p>usia saya 20 tahun hehehe</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              <p>3</p>
+            </td>
+            <td>
+              <p class="question-text">umur kamu berapa ?</p>
+            </td>
+            <td>
+              <p class="msg-body">usia saya 20 tahun hehehe</p>
+            </td>
+            <td>
+              <p>usia saya 20 tahun hehehe</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container">
+      <table class="table-striped" id="main">
+        <h2 class="header2">Test Results Message WhatsApp</h2>
+        <h3 class="header3">Id : 6</h3>
+        <p class="paragraf">Topic : topic_nomor_telepon</p>
+        <p class="paragraf">Category : kategori_nomor_telepon</p>
+        <p class="paragraf">Label : label.nomor_telepon</p><br>
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Question</th>
+            <th>Reply Chat</th>
+            <th>Answer</th>
+            <th>Status Pass</th>
+            <th>Status Failed</th>
+            <th>Probability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p>1</p>
+            </td>
+            <td>
+              <p class="question-text">no hape kamu ?</p>
+            </td>
+            <td>
+              <p class="msg-body">kalau no telepon aku, kamu minta, aq g punya no donk hehe</p>
+            </td>
+            <td>
+              <p>kalau no telepon aku, kamu minta, aq g punya no donk hehe</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              <p>2</p>
+            </td>
+            <td>
+              <p class="question-text">boleh tahu no hp kamu ?</p>
+            </td>
+            <td>
+              <p class="msg-body">kalau no telepon aku, kamu minta, aq g punya no donk hehe</p>
+            </td>
+            <td>
+              <p>kalau no telepon aku, kamu minta, aq g punya no donk hehe</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              <p>3</p>
+            </td>
+            <td>
+              <p class="question-text">w.a kamu berapa ?</p>
+            </td>
+            <td>
+              <p class="msg-body">kalau no telepon aku, kamu minta, aq g punya no donk hehe</p>
+            </td>
+            <td>
+              <p>kalau no telepon aku, kamu minta, aq g punya no donk hehe</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container">
+      <table class="table-striped" id="main">
+        <h2 class="header2">Test Results Message WhatsApp</h2>
+        <h3 class="header3">Id : 7</h3>
+        <p class="paragraf">Topic : topic_pekerjaan</p>
+        <p class="paragraf">Category : kategori_pekerjaan</p>
+        <p class="paragraf">Label : label.pekerjaan</p><br>
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Question</th>
+            <th>Reply Chat</th>
+            <th>Answer</th>
+            <th>Status Pass</th>
+            <th>Status Failed</th>
+            <th>Probability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p>1</p>
+            </td>
+            <td>
+              <p class="question-text">pekarjaan kamu apa sih ?</p>
+            </td>
+            <td>
+              <p class="msg-body">pekerjaan aku membuat kamu bahagia</p>
+            </td>
+            <td>
+              <p>pekerjaan aku membuat kamu bahagia</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              <p>2</p>
+            </td>
+            <td>
+              <p class="question-text">pekerjaan kamu ?</p>
+            </td>
+            <td>
+              <p class="msg-body">pekerjaan</p>
+            </td>
+            <td>
+              <p>pekerjaan aku membuat kamu bahagia</p>
+            </td>
+            <td>-</td>
+            <td class="failed">FAILED</td>
+            <td>
+              <p>0.42</p>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              <p>3</p>
+            </td>
+            <td>
+              <p class="question-text">apa pekerjaan kamu sekarang ?</p>
+            </td>
+            <td>
+              <p class="msg-body">pekerjaan aku membuat kamu bahagia</p>
+            </td>
+            <td>
+              <p>pekerjaan aku membuat kamu bahagia</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container">
+      <table class="table-striped" id="main">
+        <h2 class="header2">Test Results Message WhatsApp</h2>
+        <h3 class="header3">Id : 8</h3>
+        <p class="paragraf">Topic : topic_hobi</p>
+        <p class="paragraf">Category : kategori_hobi</p>
+        <p class="paragraf">Label : label.hobi</p><br>
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Question</th>
+            <th>Reply Chat</th>
+            <th>Answer</th>
+            <th>Status Pass</th>
+            <th>Status Failed</th>
+            <th>Probability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p>1</p>
+            </td>
+            <td>
+              <p class="question-text">hobi kamu apa ?</p>
+            </td>
+            <td>
+              <p class="msg-body">hobi aku jogging donk</p>
+            </td>
+            <td>
+              <p>hobi aku jogging donk</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              <p>2</p>
+            </td>
+            <td>
+              <p class="question-text">kamu punya hobi ?</p>
+            </td>
+            <td>
+              <p class="msg-body">hobi aku jogging donk</p>
+            </td>
+            <td>
+              <p>hobi aku jogging donk</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              <p>3</p>
+            </td>
+            <td>
+              <p class="question-text">hobimu apa ?</p>
+            </td>
+            <td>
+              <p class="msg-body">hobi aku jogging donk</p>
+            </td>
+            <td>
+              <p>hobi aku jogging donk</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container">
+      <table class="table-striped" id="main">
+        <h2 class="header2">Test Results Message WhatsApp</h2>
+        <h3 class="header3">Id : 9</h3>
+        <p class="paragraf">Topic : topic_pendidikan</p>
+        <p class="paragraf">Category : kategoti_pendidikan</p>
+        <p class="paragraf">Label : label.pendidikan</p><br>
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Question</th>
+            <th>Reply Chat</th>
+            <th>Answer</th>
+            <th>Status Pass</th>
+            <th>Status Failed</th>
+            <th>Probability</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <p>1</p>
+            </td>
+            <td>
+              <p class="question-text">pendidikan kamu apa sih ?</p>
+            </td>
+            <td>
+              <p class="msg-body">setiap hari aku belajar loh</p>
+            </td>
+            <td>
+              <p>setiap hari aku belajar loh</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              <p>2</p>
+            </td>
+            <td>
+              <p class="question-text">kamu ko pinter yah ?</p>
+            </td>
+            <td>
+              <p class="msg-body">setiap hari aku belajar loh</p>
+            </td>
+            <td>
+              <p>setiap hari aku belajar loh</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr>
+            <td>
+              <p>3</p>
+            </td>
+            <td>
+              <p class="question-text">kamu sd,smp,sma atau kuliah ?</p>
+            </td>
+            <td>
+              <p class="msg-body">setiap hari aku belajar loh</p>
+            </td>
+            <td>
+              <p>setiap hari aku belajar loh</p>
+            </td>
+            <td class="success">PASS</td>
+            <td>-</td>
+            <td>
+              <p>1.0</p>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="footer">
+      <h4>@botika.online by salim suprayogi</h4>
+    </div>
+  </body>
+</html>
