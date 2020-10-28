@@ -1,0 +1,14 @@
+{
+    "nama_tester": "Salim Suprayogi",
+    "mulai_test": "2020-10-27 21:55:04.227650",
+    "choice": "elseif0/open browser chrome UI/UX",
+    "browser": "elseif1/open browser chrome UI/UX",
+    "profiling": [
+        "halo"
+    ],
+    "url": "https://web.whatsapp.com/",
+    "nama_file_csv": "test_automation_data.csv",
+    "nama_file_html": "result_data_html_all",
+    "name_contact": "salim_im3",
+    "selesai_testing": "2020-10-27 22:03:17.179285"
+}
