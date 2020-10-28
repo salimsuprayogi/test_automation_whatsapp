@@ -10,13 +10,13 @@
 
 ## Things that are required
 
-        1. [*selenium 3.141.0*](https://www.selenium.dev/)
-        2. [*python Python 3.8.5*](https://www.python.org/)
+        1. [*selenium 3.141.0*](https://www.selenium.dev)
+        2. [*python Python 3.8.5*](https://www.python.org)
         3. os windows
 
 ## Description Program
 
-        1. Login [*web whatsapp*](https://web.whatsapp.com/).
+        1. Login [*web whatsapp*](https://web.whatsapp.com) .
         2. Search for a contact name in list contact whatsapp.
         3. Send message to specific contact name, example "salim".
         4. Waiting for incoming message reply.
@@ -44,11 +44,9 @@
 
         [*Salim Suprayogi*](https://github.com/salimsuprayogi)
 
-        Github
-        [*https://github.com/salimsuprayogi*](https://github.com/salimsuprayogi)
+        Github [*https://github.com/salimsuprayogi*](https://github.com/salimsuprayogi)
 
-        Linkedin
-        [*https://www.linkedin.com/in/salimsuprayogi/*](https://www.linkedin.com/in/salimsuprayogi/)
+        Linkedin [*https://www.linkedin.com/in/salimsuprayogi/*](https://www.linkedin.com/in/salimsuprayogi)
 
-        Our blog
-        [*https://voosmos.blogspot.com/*](https://voosmos.blogspot.com/)
+        Our blog [*https://voosmos.blogspot.com/*](https://voosmos.blogspot.com)
+
