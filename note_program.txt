@@ -1,0 +1,23 @@
+#Note Program
+
+#log testing file:
+    contoh file :
+    log_testing_23_25_04_324279.json
+
+#main.py file: main program
+
+#response.py file: file for wait reply chat and get data text chat
+
+#whatsapp.py file : sub main program to run open web whatsapp
+
+#data_csv folder : to put files format data_csv
+
+#data_file folder :result convert file csv to json, result testing json format
+
+#data_report folder : to put file result testing html format
+
+#packagepy folder : modul / multiple functions to run selenium, convert csv to json, create result testing html format,__init__
+
+#testing folder : for testing program
+
+#automation_py : main folder program
