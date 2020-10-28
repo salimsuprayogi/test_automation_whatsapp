@@ -1,0 +1,31 @@
+{
+    "label8": {
+        "id": "8",
+        "topik": "topic_hobi",
+        "kategori": "kategori_hobi",
+        "nama_label": "label.hobi",
+        "hasil": {
+            "1": {
+                "text": "hobi kamu apa ?",
+                "answer": "hobi aku jogging donk",
+                "reply_chat": "hobi aku jogging donk",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "2": {
+                "text": "kamu punya hobi ?",
+                "answer": "hobi aku jogging donk",
+                "reply_chat": "hobi aku jogging donk",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "3": {
+                "text": "hobimu apa ?",
+                "answer": "hobi aku jogging donk",
+                "reply_chat": "hobi aku jogging donk",
+                "status": "pass",
+                "percentage": 1.0
+            }
+        }
+    }
+}

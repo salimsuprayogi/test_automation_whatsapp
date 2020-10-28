@@ -1,0 +1,263 @@
+{
+    "label1": {
+        "id": "1",
+        "topik": "topic_nama",
+        "kategori": "kategori_nama",
+        "nama_label": "label.nama",
+        "hasil": {
+            "1": {
+                "text": "nama kamu siapa ?",
+                "answer": "nama saya selim",
+                "reply_chat": "nama saya selim",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "2": {
+                "text": "kamu siapa ?",
+                "answer": "nama saya selim",
+                "reply_chat": "asoka",
+                "status": "failed",
+                "percentage": 0.3
+            },
+            "3": {
+                "text": "boleh tahu nama kamu ?",
+                "answer": "nama saya selim",
+                "reply_chat": "nama saya selim",
+                "status": "pass",
+                "percentage": 1.0
+            }
+        }
+    },
+    "label2": {
+        "id": "2",
+        "topik": "topic_jenis_kelamin",
+        "kategori": "kategori_jenis_kelamin",
+        "nama_label": "label.jenis_kelamin",
+        "hasil": {
+            "1": {
+                "text": "jenis kelamin kamu apa ?",
+                "answer": "cowok donk",
+                "reply_chat": "lupa",
+                "status": "failed",
+                "percentage": 0.0
+            },
+            "2": {
+                "text": "kamu laki-laki atau perempuan ?",
+                "answer": "cowok donk",
+                "reply_chat": "cowok donk",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "3": {
+                "text": "cowok atau cewek ?",
+                "answer": "cowok donk",
+                "reply_chat": "cowok donk",
+                "status": "pass",
+                "percentage": 1.0
+            }
+        }
+    },
+    "label3": {
+        "id": "3",
+        "topik": "topic_asal",
+        "kategori": "kategori_asal",
+        "nama_label": "label.asal",
+        "hasil": {
+            "1": {
+                "text": "asli mana ?",
+                "answer": "saya asli jogja bos",
+                "reply_chat": "jl. imogiri timur km 9",
+                "status": "failed",
+                "percentage": 0.2
+            },
+            "2": {
+                "text": "kamu asli mana ?",
+                "answer": "saya asli jogja bos",
+                "reply_chat": "saya asli jogja bos",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "3": {
+                "text": "asal kamu ?",
+                "answer": "saya asli jogja bos",
+                "reply_chat": "rahasia",
+                "status": "failed",
+                "percentage": 0.38
+            }
+        }
+    },
+    "label4": {
+        "id": "4",
+        "topik": "topic_alamat",
+        "kategori": "kategori_alamat",
+        "nama_label": "label.alamat",
+        "hasil": {
+            "1": {
+                "text": "alamat kamu ?",
+                "answer": "jl. imogiri timur km 9",
+                "reply_chat": "jl. imogiri timur km 9",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "2": {
+                "text": "dimana alamat kamu ?",
+                "answer": "jl. imogiri timur km 9",
+                "reply_chat": "jl. imogiri timur km 8",
+                "status": "pass",
+                "percentage": 0.95
+            },
+            "3": {
+                "text": "boleh tahu alamat kamu ?",
+                "answer": "jl. imogiri timur km 9",
+                "reply_chat": "jl. imogiri timur km 9",
+                "status": "pass",
+                "percentage": 1.0
+            }
+        }
+    },
+    "label5": {
+        "id": "5",
+        "topik": "topic_usia",
+        "kategori": "kategori_usia",
+        "nama_label": "label.usia",
+        "hasil": {
+            "1": {
+                "text": "usia kamu berapa ?",
+                "answer": "usia saya 20 tahun hehehe",
+                "reply_chat": "hee",
+                "status": "failed",
+                "percentage": 0.21
+            },
+            "2": {
+                "text": "usia kamu ?",
+                "answer": "usia saya 20 tahun hehehe",
+                "reply_chat": "usia saya 20 tahun hehehe",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "3": {
+                "text": "umur kamu berapa ?",
+                "answer": "usia saya 20 tahun hehehe",
+                "reply_chat": "usia saya 20 tahun hehehe",
+                "status": "pass",
+                "percentage": 1.0
+            }
+        }
+    },
+    "label6": {
+        "id": "6",
+        "topik": "topic_nomor_telepon",
+        "kategori": "kategori_nomor_telepon",
+        "nama_label": "label.nomor_telepon",
+        "hasil": {
+            "1": {
+                "text": "no hape kamu ?",
+                "answer": "kalau no telepon aku, kamu minta, aq g punya no donk hehe",
+                "reply_chat": "kalau no telepon aku, kamu minta, aq g punya no donk hehe",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "2": {
+                "text": "boleh tahu no hp kamu ?",
+                "answer": "kalau no telepon aku, kamu minta, aq g punya no donk hehe",
+                "reply_chat": "kalau no telepon aku, kamu minta, aq g punya no donk hehe",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "3": {
+                "text": "w.a kamu berapa ?",
+                "answer": "kalau no telepon aku, kamu minta, aq g punya no donk hehe",
+                "reply_chat": "kalau no telepon aku, kamu minta, aq g punya no donk hehe",
+                "status": "pass",
+                "percentage": 1.0
+            }
+        }
+    },
+    "label7": {
+        "id": "7",
+        "topik": "topic_pekerjaan",
+        "kategori": "kategori_pekerjaan",
+        "nama_label": "label.pekerjaan",
+        "hasil": {
+            "1": {
+                "text": "pekarjaan kamu apa sih ?",
+                "answer": "pekerjaan aku membuat kamu bahagia",
+                "reply_chat": "pekerjaan aku membuat kamu bahagia",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "2": {
+                "text": "pekerjaan kamu ?",
+                "answer": "pekerjaan aku membuat kamu bahagia",
+                "reply_chat": "pekerjaan",
+                "status": "failed",
+                "percentage": 0.42
+            },
+            "3": {
+                "text": "apa pekerjaan kamu sekarang ?",
+                "answer": "pekerjaan aku membuat kamu bahagia",
+                "reply_chat": "pekerjaan aku membuat kamu bahagia",
+                "status": "pass",
+                "percentage": 1.0
+            }
+        }
+    },
+    "label8": {
+        "id": "8",
+        "topik": "topic_hobi",
+        "kategori": "kategori_hobi",
+        "nama_label": "label.hobi",
+        "hasil": {
+            "1": {
+                "text": "hobi kamu apa ?",
+                "answer": "hobi aku jogging donk",
+                "reply_chat": "hobi aku jogging donk",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "2": {
+                "text": "kamu punya hobi ?",
+                "answer": "hobi aku jogging donk",
+                "reply_chat": "hobi aku jogging donk",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "3": {
+                "text": "hobimu apa ?",
+                "answer": "hobi aku jogging donk",
+                "reply_chat": "hobi aku jogging donk",
+                "status": "pass",
+                "percentage": 1.0
+            }
+        }
+    },
+    "label9": {
+        "id": "9",
+        "topik": "topic_pendidikan",
+        "kategori": "kategoti_pendidikan",
+        "nama_label": "label.pendidikan",
+        "hasil": {
+            "1": {
+                "text": "pendidikan kamu apa sih ?",
+                "answer": "setiap hari aku belajar loh",
+                "reply_chat": "setiap hari aku belajar loh",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "2": {
+                "text": "kamu ko pinter yah ?",
+                "answer": "setiap hari aku belajar loh",
+                "reply_chat": "setiap hari aku belajar loh",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "3": {
+                "text": "kamu sd,smp,sma atau kuliah ?",
+                "answer": "setiap hari aku belajar loh",
+                "reply_chat": "setiap hari aku belajar loh",
+                "status": "pass",
+                "percentage": 1.0
+            }
+        }
+    }
+}

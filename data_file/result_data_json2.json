@@ -1,0 +1,31 @@
+{
+    "label2": {
+        "id": "2",
+        "topik": "topic_jenis_kelamin",
+        "kategori": "kategori_jenis_kelamin",
+        "nama_label": "label.jenis_kelamin",
+        "hasil": {
+            "1": {
+                "text": "jenis kelamin kamu apa ?",
+                "answer": "cowok donk",
+                "reply_chat": "lupa",
+                "status": "failed",
+                "percentage": 0.0
+            },
+            "2": {
+                "text": "kamu laki-laki atau perempuan ?",
+                "answer": "cowok donk",
+                "reply_chat": "cowok donk",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "3": {
+                "text": "cowok atau cewek ?",
+                "answer": "cowok donk",
+                "reply_chat": "cowok donk",
+                "status": "pass",
+                "percentage": 1.0
+            }
+        }
+    }
+}

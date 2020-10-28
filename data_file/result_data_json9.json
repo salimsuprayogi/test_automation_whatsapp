@@ -1,0 +1,31 @@
+{
+    "label9": {
+        "id": "9",
+        "topik": "topic_pendidikan",
+        "kategori": "kategoti_pendidikan",
+        "nama_label": "label.pendidikan",
+        "hasil": {
+            "1": {
+                "text": "pendidikan kamu apa sih ?",
+                "answer": "setiap hari aku belajar loh",
+                "reply_chat": "setiap hari aku belajar loh",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "2": {
+                "text": "kamu ko pinter yah ?",
+                "answer": "setiap hari aku belajar loh",
+                "reply_chat": "setiap hari aku belajar loh",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "3": {
+                "text": "kamu sd,smp,sma atau kuliah ?",
+                "answer": "setiap hari aku belajar loh",
+                "reply_chat": "setiap hari aku belajar loh",
+                "status": "pass",
+                "percentage": 1.0
+            }
+        }
+    }
+}

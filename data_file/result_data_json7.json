@@ -1,0 +1,31 @@
+{
+    "label7": {
+        "id": "7",
+        "topik": "topic_pekerjaan",
+        "kategori": "kategori_pekerjaan",
+        "nama_label": "label.pekerjaan",
+        "hasil": {
+            "1": {
+                "text": "pekarjaan kamu apa sih ?",
+                "answer": "pekerjaan aku membuat kamu bahagia",
+                "reply_chat": "pekerjaan aku membuat kamu bahagia",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "2": {
+                "text": "pekerjaan kamu ?",
+                "answer": "pekerjaan aku membuat kamu bahagia",
+                "reply_chat": "pekerjaan",
+                "status": "failed",
+                "percentage": 0.42
+            },
+            "3": {
+                "text": "apa pekerjaan kamu sekarang ?",
+                "answer": "pekerjaan aku membuat kamu bahagia",
+                "reply_chat": "pekerjaan aku membuat kamu bahagia",
+                "status": "pass",
+                "percentage": 1.0
+            }
+        }
+    }
+}

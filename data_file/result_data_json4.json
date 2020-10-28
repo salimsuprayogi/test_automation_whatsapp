@@ -1,0 +1,31 @@
+{
+    "label4": {
+        "id": "4",
+        "topik": "topic_alamat",
+        "kategori": "kategori_alamat",
+        "nama_label": "label.alamat",
+        "hasil": {
+            "1": {
+                "text": "alamat kamu ?",
+                "answer": "jl. imogiri timur km 9",
+                "reply_chat": "jl. imogiri timur km 9",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "2": {
+                "text": "dimana alamat kamu ?",
+                "answer": "jl. imogiri timur km 9",
+                "reply_chat": "jl. imogiri timur km 8",
+                "status": "pass",
+                "percentage": 0.95
+            },
+            "3": {
+                "text": "boleh tahu alamat kamu ?",
+                "answer": "jl. imogiri timur km 9",
+                "reply_chat": "jl. imogiri timur km 9",
+                "status": "pass",
+                "percentage": 1.0
+            }
+        }
+    }
+}

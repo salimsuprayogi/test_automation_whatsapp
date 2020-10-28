@@ -1,0 +1,31 @@
+{
+    "label5": {
+        "id": "5",
+        "topik": "topic_usia",
+        "kategori": "kategori_usia",
+        "nama_label": "label.usia",
+        "hasil": {
+            "1": {
+                "text": "usia kamu berapa ?",
+                "answer": "usia saya 20 tahun hehehe",
+                "reply_chat": "hee",
+                "status": "failed",
+                "percentage": 0.21
+            },
+            "2": {
+                "text": "usia kamu ?",
+                "answer": "usia saya 20 tahun hehehe",
+                "reply_chat": "usia saya 20 tahun hehehe",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "3": {
+                "text": "umur kamu berapa ?",
+                "answer": "usia saya 20 tahun hehehe",
+                "reply_chat": "usia saya 20 tahun hehehe",
+                "status": "pass",
+                "percentage": 1.0
+            }
+        }
+    }
+}

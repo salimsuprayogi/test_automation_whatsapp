@@ -1,0 +1,31 @@
+{
+    "label1": {
+        "id": "1",
+        "topik": "topic_nama",
+        "kategori": "kategori_nama",
+        "nama_label": "label.nama",
+        "hasil": {
+            "1": {
+                "text": "nama kamu siapa ?",
+                "answer": "nama saya selim",
+                "reply_chat": "nama saya selim",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "2": {
+                "text": "kamu siapa ?",
+                "answer": "nama saya selim",
+                "reply_chat": "asoka",
+                "status": "failed",
+                "percentage": 0.3
+            },
+            "3": {
+                "text": "boleh tahu nama kamu ?",
+                "answer": "nama saya selim",
+                "reply_chat": "nama saya selim",
+                "status": "pass",
+                "percentage": 1.0
+            }
+        }
+    }
+}

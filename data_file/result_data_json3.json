@@ -1,0 +1,31 @@
+{
+    "label3": {
+        "id": "3",
+        "topik": "topic_asal",
+        "kategori": "kategori_asal",
+        "nama_label": "label.asal",
+        "hasil": {
+            "1": {
+                "text": "asli mana ?",
+                "answer": "saya asli jogja bos",
+                "reply_chat": "jl. imogiri timur km 9",
+                "status": "failed",
+                "percentage": 0.2
+            },
+            "2": {
+                "text": "kamu asli mana ?",
+                "answer": "saya asli jogja bos",
+                "reply_chat": "saya asli jogja bos",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "3": {
+                "text": "asal kamu ?",
+                "answer": "saya asli jogja bos",
+                "reply_chat": "rahasia",
+                "status": "failed",
+                "percentage": 0.38
+            }
+        }
+    }
+}

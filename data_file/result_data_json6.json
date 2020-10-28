@@ -1,0 +1,31 @@
+{
+    "label6": {
+        "id": "6",
+        "topik": "topic_nomor_telepon",
+        "kategori": "kategori_nomor_telepon",
+        "nama_label": "label.nomor_telepon",
+        "hasil": {
+            "1": {
+                "text": "no hape kamu ?",
+                "answer": "kalau no telepon aku, kamu minta, aq g punya no donk hehe",
+                "reply_chat": "kalau no telepon aku, kamu minta, aq g punya no donk hehe",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "2": {
+                "text": "boleh tahu no hp kamu ?",
+                "answer": "kalau no telepon aku, kamu minta, aq g punya no donk hehe",
+                "reply_chat": "kalau no telepon aku, kamu minta, aq g punya no donk hehe",
+                "status": "pass",
+                "percentage": 1.0
+            },
+            "3": {
+                "text": "w.a kamu berapa ?",
+                "answer": "kalau no telepon aku, kamu minta, aq g punya no donk hehe",
+                "reply_chat": "kalau no telepon aku, kamu minta, aq g punya no donk hehe",
+                "status": "pass",
+                "percentage": 1.0
+            }
+        }
+    }
+}
